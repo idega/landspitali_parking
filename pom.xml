@@ -291,6 +291,12 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.landspitali.parking</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.httpcomponents</groupId>
+					<artifactId>httpcore</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
